@@ -8,8 +8,7 @@ public class SeleniumIntro {
 		//Create the object of the class
 		
 		//chromedriver.exe -> Chrome Brower
-		WebDriver driver = new ChromeDriver();
-		
-		
+		System.setProperty(key,"D:\\Test Automation\\Selenium_webDriver");
+		WebDriver driver = new ChromeDriver();	
 	}
 }
